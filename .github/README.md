@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-iot-data-plane`](https://www.npmjs.com/package/@aws-sdk/client-iot-data-plane/v/3.556.0).
+[`@aws-sdk/client-iot-data-plane`](https://www.npmjs.com/package/@aws-sdk/client-iot-data-plane/v/3.563.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-data-plane@3.556.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-data-plane@3.563.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-ZGL8gjQX8+c9Go4rKr4LE3Esrpea3YRMbIKpZuc0sChbYTv6MvTgdlXPTpLCVi34
+sha384-CLghwfgUsE1SYLVbnG3Wj155x88XzrfFGVQ2TqF0AzFtJawwRqfhInGEM+L3ILDF
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-iot-data-plane": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-data-plane@3.556.0/index.min.mjs"
+            "@aws-sdk/client-iot-data-plane": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-data-plane@3.563.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-data-plane@3.556.0/index.min.mjs": "sha384-ZGL8gjQX8+c9Go4rKr4LE3Esrpea3YRMbIKpZuc0sChbYTv6MvTgdlXPTpLCVi34"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-data-plane@3.563.0/index.min.mjs": "sha384-CLghwfgUsE1SYLVbnG3Wj155x88XzrfFGVQ2TqF0AzFtJawwRqfhInGEM+L3ILDF"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-iot-data-plane": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-data-plane@3.556.0/index.min.mjs"
+                        "@aws-sdk/client-iot-data-plane": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-data-plane@3.563.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-data-plane@3.556.0/index.min.mjs": "sha384-ZGL8gjQX8+c9Go4rKr4LE3Esrpea3YRMbIKpZuc0sChbYTv6MvTgdlXPTpLCVi34"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-data-plane@3.563.0/index.min.mjs": "sha384-CLghwfgUsE1SYLVbnG3Wj155x88XzrfFGVQ2TqF0AzFtJawwRqfhInGEM+L3ILDF"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.556.0`)
+* Always pin to a specific version (`@3.563.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-iot-data-plane/blob/refs/tags/3.556.0/LICENSE
+https://github.com/cloud-sdk-builds/client-iot-data-plane/blob/refs/tags/3.563.0/LICENSE
 ```
 
 ---
